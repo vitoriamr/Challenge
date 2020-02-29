@@ -1,0 +1,23 @@
+{
+  "collectCoverage": true,
+  "coverageThreshold": {
+    "global": {
+      "branches": 0,
+      "functions": 0,
+      "lines": 0
+    }
+  },
+  "moduleNameMapper": {
+    "\\.(css|less|scss)$": "identity-obj-proxy",
+    "\\.svg$": "<rootDir>/src/tests/empty-module.js",
+    "\\.png$": "<rootDir>/src/tests/empty-module.js",
+    "\\.jpg$": "<rootDir>/src/tests/empty-module.js"
+  },
+  "setupFiles": [
+    "<rootDir>/src/tests/setupTests.js",
+    "jest-localstorage-mock"
+  ],
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ]
+}

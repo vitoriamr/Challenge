@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown matches previous snapshot 1`] = `
+<div>
+  <FirstButton
+    available={true}
+    onClick={[Function]}
+  >
+    <styled.div>
+      <DropdownText>
+        Select an Option...
+      </DropdownText>
+      <Icon
+        alt="dropdownArrowIcon"
+        facingUp={false}
+        src=""
+      />
+    </styled.div>
+  </FirstButton>
+</div>
+`;

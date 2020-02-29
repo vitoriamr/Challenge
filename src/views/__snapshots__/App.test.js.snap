@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches previous snapshot 1`] = `
+<styled.div>
+  <styled.div>
+    <DropdownLabel
+      id="statesLabel"
+    >
+      States:
+    </DropdownLabel>
+    <Dropdown
+      available={true}
+      currentValue="Select an Option..."
+      handleDropdown={[Function]}
+      valueOptions={
+        Array [
+          "New York",
+          "California",
+          "Texas",
+        ]
+      }
+    />
+  </styled.div>
+  <styled.div>
+    <DropdownLabel
+      id="citiesLabel"
+    >
+      Cities:
+    </DropdownLabel>
+    <Dropdown
+      available={false}
+      currentValue="Select an Option..."
+      handleDropdown={[Function]}
+      valueOptions={Array []}
+    />
+  </styled.div>
+  <FAQArea
+    faqVisible={false}
+    value="Select an Option..."
+  />
+</styled.div>
+`;

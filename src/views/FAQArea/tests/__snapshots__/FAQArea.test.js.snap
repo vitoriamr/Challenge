@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FAQArea matches previous snapshot 1`] = `
+<div>
+  <FAQTitle>
+    Austin FAQs
+  </FAQTitle>
+  <QuestionsList>
+    <styled.div
+      key="1"
+    >
+      <Button
+        id="button-1"
+        onClick={[Function]}
+      >
+        <styled.img
+          alt="faqArrowIcon"
+          facingUp={false}
+          src=""
+        />
+      </Button>
+      <Question
+        shouldOpenAnswer={false}
+      >
+        Where can I find the best breakfast tacos?
+      </Question>
+    </styled.div>
+    <styled.div
+      key="2"
+    >
+      <Button
+        id="button-2"
+        onClick={[Function]}
+      >
+        <styled.img
+          alt="faqArrowIcon"
+          facingUp={false}
+          src=""
+        />
+      </Button>
+      <Question
+        shouldOpenAnswer={false}
+      >
+        Is the BBQ really that good?
+      </Question>
+    </styled.div>
+  </QuestionsList>
+</div>
+`;

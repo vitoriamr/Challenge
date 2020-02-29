@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1583020155359" clover="3.2.0">
+  <project timestamp="1583020155359" name="All files">
+    <metrics statements="102" coveredstatements="89" conditionals="37" coveredconditionals="29" methods="22" coveredmethods="18" elements="161" coveredelements="136" complexity="0" loc="102" ncloc="102" packages="7" files="8" classes="8"/>
+    <package name="constants">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="colors.js" path="/Users/vitoriamainardi/Desktop/Challenge/src/constants/colors.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+      </file>
+      <file name="sampleData.js" path="/Users/vitoriamainardi/Desktop/Challenge/src/constants/sampleData.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="empty-module.js" path="/Users/vitoriamainardi/Desktop/Challenge/src/tests/empty-module.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="views">
+      <metrics statements="22" coveredstatements="14" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="1"/>
+      <file name="App.js" path="/Users/vitoriamainardi/Desktop/Challenge/src/views/App.js">
+        <metrics statements="22" coveredstatements="14" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+        <line num="20" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="views.Dropdown">
+      <metrics statements="33" coveredstatements="30" conditionals="10" coveredconditionals="6" methods="12" coveredmethods="10"/>
+      <file name="Dropdown.js" path="/Users/vitoriamainardi/Desktop/Challenge/src/views/Dropdown/Dropdown.js">
+        <metrics statements="33" coveredstatements="30" conditionals="10" coveredconditionals="6" methods="12" coveredmethods="10"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="12" count="14" type="stmt"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="17" count="14" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="23" count="12" type="stmt"/>
+        <line num="24" count="12" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="42" count="28" type="stmt"/>
+        <line num="43" count="28" type="stmt"/>
+        <line num="62" count="14" type="stmt"/>
+        <line num="66" count="54" type="stmt"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
+        <line num="73" count="2" type="stmt"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="95" count="2" type="stmt"/>
+        <line num="102" count="26" type="cond" truecount="1" falsecount="1"/>
+        <line num="104" count="2" type="stmt"/>
+        <line num="106" count="2" type="stmt"/>
+        <line num="110" count="2" type="stmt"/>
+        <line num="112" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="116" count="2" type="stmt"/>
+        <line num="118" count="2" type="stmt"/>
+        <line num="124" count="2" type="stmt"/>
+        <line num="126" count="2" type="stmt"/>
+        <line num="134" count="2" type="stmt"/>
+        <line num="136" count="2" type="stmt"/>
+        <line num="142" count="2" type="stmt"/>
+        <line num="144" count="2" type="stmt"/>
+        <line num="152" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="views.Dropdown.dropdownConfig">
+      <metrics statements="6" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="dropdownConfig.js" path="/Users/vitoriamainardi/Desktop/Challenge/src/views/Dropdown/dropdownConfig/dropdownConfig.js">
+        <metrics statements="6" coveredstatements="5" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="3" type="cond" truecount="3" falsecount="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="views.FAQArea">
+      <metrics statements="26" coveredstatements="26" conditionals="14" coveredconditionals="13" methods="5" coveredmethods="5"/>
+      <file name="FAQArea.js" path="/Users/vitoriamainardi/Desktop/Challenge/src/views/FAQArea/FAQArea.js">
+        <metrics statements="26" coveredstatements="26" conditionals="14" coveredconditionals="13" methods="5" coveredmethods="5"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+        <line num="15" count="42" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="26" count="14" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="94" count="2" type="stmt"/>
+        <line num="100" count="2" type="stmt"/>
+        <line num="102" count="2" type="stmt"/>
+        <line num="110" count="2" type="stmt"/>
+        <line num="112" count="2" type="stmt"/>
+        <line num="115" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="118" count="2" type="stmt"/>
+        <line num="122" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="views.FAQArea.FAQconfig">
+      <metrics statements="9" coveredstatements="8" conditionals="7" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="FAQconfig.js" path="/Users/vitoriamainardi/Desktop/Challenge/src/views/FAQArea/FAQconfig/FAQconfig.js">
+        <metrics statements="9" coveredstatements="8" conditionals="7" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="16" type="cond" truecount="6" falsecount="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="60" count="11" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
